@@ -5,7 +5,6 @@ Output:
     keep_md: true
 ---
 # Usage: knit2html
-library(knitr)
 knit2html(input = "PA1_template.Rmd")
 
 # Load Package
