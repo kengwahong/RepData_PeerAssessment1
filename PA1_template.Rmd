@@ -24,6 +24,7 @@ Plot the graph
 ```{r}
 hist(total.steps, main = "Steps Per Day", xlab="Total Steps", ylab="Frequency")
 ```
+
 Calculate and report the mean and median total number of steps taken per day
 ```{r}
 mean(total.steps)

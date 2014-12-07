@@ -29,6 +29,7 @@ hist(total.steps, main = "Steps Per Day", xlab="Total Steps", ylab="Frequency")
 ```
 
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
+
 Calculate and report the mean and median total number of steps taken per day
 
 ```r
