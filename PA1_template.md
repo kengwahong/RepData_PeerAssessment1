@@ -4,9 +4,9 @@ output:
   html_document:
     keep_md: true
 ---
-## Generate html / md files using knit2html
-# library(knitr)
-# knit2html(input = "PA1_template.Rmd")
+# Generate html / md files using knit2html
+## library(knitr)
+## knit2html(input = "PA1_template.Rmd")
 
 library(lattice)
 
