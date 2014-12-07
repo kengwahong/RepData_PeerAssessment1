@@ -4,16 +4,22 @@ output:
   html_document:
     keep_md: true
 ---
-# Generate html / md files using knit2html
+# Instruction: Generating html / md files using knit2html
 ## library(knitr)
 ## knit2html(input = "PA1_template.Rmd")
 
-library(lattice)
 
-## Loading and preprocessing the data
+```r
+library(lattice)
+```
+
+# Loading and preprocessing the data
+Compute the Total Steps for each day
+
+```r
 data <- read.csv("activity.csv", colClasses=c("integer","Date","integer"))
-# Compute the Total Steps for each day
 total.steps <- tapply(data$steps, data$date, FUN = sum, na.rm = TRUE)
+```
 
 ## What is mean total number of steps taken per day?
 # Plot the graph
